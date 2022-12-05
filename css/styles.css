@@ -28,7 +28,7 @@ body {
 img {
   float: right;
   margin-right: 15px;
-  width: 16%;
+  width: 18%;
   height: 35%;
 }
 
@@ -43,6 +43,13 @@ h5 {
 }
 
 p {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
+
+p1 {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
