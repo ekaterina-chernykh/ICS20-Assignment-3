@@ -28,6 +28,8 @@ body {
 img {
   float: right;
   margin-right: 15px;
+  width: 16%;
+  height: 35%;
 }
 
 h3 {
