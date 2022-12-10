@@ -33,7 +33,7 @@ function myButtonClicked() {
 
   if (buttonOldFashionDonutChecked && button1Checked == true) {
     document.getElementById("final-order").innerHTML =
-      "Donut: Old Fashion Amount: 1 Price:$2.25" 
+      "Donut: Old Fashion Amount: 1 Price:$2.25"
   } else if (buttonOldFashionDonutChecked && button2Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
