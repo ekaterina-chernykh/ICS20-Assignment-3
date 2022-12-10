@@ -33,7 +33,7 @@ function myButtonClicked() {
 
   if (buttonOldFashionDonutChecked && button1Checked == true) {
     document.getElementById("final-order").innerHTML =
-      "<p>Donut: Old Fashion<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
+      "Donut: Old Fashion Amount: 1 Price:$2.25" 
   } else if (buttonOldFashionDonutChecked && button2Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
@@ -41,9 +41,9 @@ function myButtonClicked() {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 3<p> <p>Price:$6.70<p>"
   } else if (buttonOldFashionDonutChecked && button6Checked == true) {
+    finalOrder = "Donut: Old Fashion Amount: 6 <p>Price:$10.50<p>"
     document.getElementById("final-order").innerHTML =
-      "<p>Donut: Old Fashion<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
-    finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
+      "Donut: Old Fashion <p>Amount: 6<p> <p>Price:$10.50<p>"
   } else if (buttonOldFashionDonutChecked && button12Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 12<p> <p>Price:$16.50<p>"
