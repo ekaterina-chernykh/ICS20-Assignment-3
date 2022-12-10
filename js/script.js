@@ -33,7 +33,7 @@ function myButtonClicked() {
 
   if (buttonOldFashionDonutChecked && button1Checked == true) {
     document.getElementById("final-order").innerHTML =
-      "<p>Donut: Old Fashion<p> <p>Amount: 1<p> <p>Price:$2.25<p>" 
+      "<p>Donut: Old Fashion<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
   } else if (buttonOldFashionDonutChecked && button2Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
@@ -43,7 +43,7 @@ function myButtonClicked() {
   } else if (buttonOldFashionDonutChecked && button6Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
-      finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
+    finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
   } else if (buttonOldFashionDonutChecked && button12Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Old Fashion<p> <p>Amount: 12<p> <p>Price:$16.50<p>"
@@ -51,7 +51,7 @@ function myButtonClicked() {
 
   if (buttonChocolateChecked && button1Checked == true) {
     document.getElementById("final-order").innerHTML =
-      "<p>Donut: Chocolate<p> <p>Amount: 1<p> <p>Price:$2.25<p>" 
+      "<p>Donut: Chocolate<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
   } else if (buttonChocolateChecked && button2Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Chocolate<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
@@ -68,7 +68,7 @@ function myButtonClicked() {
 
   if (buttonGlazedChecked && button1Checked == true) {
     document.getElementById("final-order").innerHTML =
-      "<p>Donut: Glazed<p> <p>Amount: 1<p> <p>Price:$2.25<p>" 
+      "<p>Donut: Glazed<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
   } else if (buttonGlazedChecked && button2Checked == true) {
     document.getElementById("final-order").innerHTML =
       "<p>Donut: Glazed<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
@@ -84,7 +84,6 @@ function myButtonClicked() {
   }
 }
 
-function myYesButtonClicked () {
+function myYesButtonClicked() {
   document.getElementById("final-order").innerHTML = finalOrder
 }
-
