@@ -32,7 +32,7 @@ function myButtonClicked() {
   let button12Checked = document.getElementById("12").checked
 
   if (buttonOldFashionDonutChecked && button1Checked == true) {
-    finalOrder = "Donut: Old Fashion Amount: 1 Price: $2.25" 
+    finalOrder = "Donut: Old Fashion Amount: 1 Price: $2.25"
   } else if (buttonOldFashionDonutChecked && button2Checked == true) {
     finalOrder = "Donut: Old Fashion Amount: 2 Price: $4.75"
   } else if (buttonOldFashionDonutChecked && button3Checked == true) {
@@ -67,12 +67,13 @@ function myButtonClicked() {
     finalOrder = "<p>Donut: Glazed<p> <p>Amount: 12<p> <p>Price:$16.70<p>"
   }
   document.getElementById("final-order").innerHTML = finalOrder
-} 
-
-function myYesButtonClicked () {
-  document.getElementById("confirmation").innerHTML = "Order confirmed, thank you!"
 }
 
-function myNoButtonClicked () {
+function myYesButtonClicked() {
+  document.getElementById("confirmation").innerHTML =
+    "Order confirmed, thank you!"
+}
+
+function myNoButtonClicked() {
   document.getElementById("confirmation").innerHTML = "Order canceled."
 }
