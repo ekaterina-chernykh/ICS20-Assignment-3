@@ -165,16 +165,26 @@
         </div>
         <p></p>
         <!-- Raised button with ripple -->
-        <a href="./index2.html">
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="myButtonClicked()"
-          >
+            onclick="myButtonClicked()">
             CONFIRM ORDER
           </button>
-        </a>
-        <!-- basic text -->
         <p></p>
+        <div id="final-order"></div>
+        <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="myYesButtonClicked()"
+          >
+            YES
+          </button>
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="myNoButtonClicked()"
+          >
+            NO
+          </button>
+          <div id="confirmation"></div>
       </main>
     </div>
   </body>

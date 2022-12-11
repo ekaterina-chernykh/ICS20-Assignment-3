@@ -32,58 +32,47 @@ function myButtonClicked() {
   let button12Checked = document.getElementById("12").checked
 
   if (buttonOldFashionDonutChecked && button1Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "Donut: Old Fashion Amount: 1 Price:$2.25"
+    finalOrder = "Donut: Old Fashion Amount: 1 Price: $2.25" 
   } else if (buttonOldFashionDonutChecked && button2Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Old Fashion<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
+    finalOrder = "Donut: Old Fashion Amount: 2 Price: $4.75"
   } else if (buttonOldFashionDonutChecked && button3Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Old Fashion<p> <p>Amount: 3<p> <p>Price:$6.70<p>"
+    finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 3<p> <p>Price: $6.70<p>"
   } else if (buttonOldFashionDonutChecked && button6Checked == true) {
-    finalOrder = "Donut: Old Fashion Amount: 6 <p>Price:$10.50<p>"
-    document.getElementById("final-order").innerHTML =
-      "Donut: Old Fashion <p>Amount: 6<p> <p>Price:$10.50<p>"
+    finalOrder = "Donut: Old Fashion Amount: 6 <p>Price: $10.50<p>"
   } else if (buttonOldFashionDonutChecked && button12Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Old Fashion<p> <p>Amount: 12<p> <p>Price:$16.50<p>"
+    finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 12<p> <p>Price: $16.50<p>"
   }
 
   if (buttonChocolateChecked && button1Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Chocolate<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
+    finalOrder = "<p>Donut: Chocolate<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
   } else if (buttonChocolateChecked && button2Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Chocolate<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
+    finalOrder = "<p>Donut: Chocolate<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
   } else if (buttonChocolateChecked && button3Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Chocolate<p> <p>Amount: 3<p> <p>Price:$6.70<p>"
+    finalOrder = "<p>Donut: Chocolate<p> <p>Amount: 3<p> <p>Price:$6.70<p>"
   } else if (buttonChocolateChecked && button6Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Chocolate<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
+    finalOrder = "<p>Donut: Chocolate<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
   } else if (buttonChocolateChecked && button12Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Chocolate<p> <p>Amount: 12<p> <p>Price:$16.50<p>"
+    finalOrder = "<p>Donut: Chocolate<p> <p>Amount: 12<p> <p>Price:$16.50<p>"
   }
 
   if (buttonGlazedChecked && button1Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Glazed<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
+    finalOrder = "<p>Donut: Glazed<p> <p>Amount: 1<p> <p>Price:$2.25<p>"
   } else if (buttonGlazedChecked && button2Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Glazed<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
+    finalOrder = "<p>Donut: Glazed<p> <p>Amount: 2<p> <p>Price:$4.75<p>"
   } else if (buttonGlazedChecked && button3Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Glazed<p> <p>Amount: 3<p> <p>Price:$6.70<p>"
+    finalOrder = "<p>Donut: Glazed<p> <p>Amount: 3<p> <p>Price:$6.70<p>"
   } else if (buttonGlazedChecked && button6Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Glazed<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
+    finalOrder = "<p>Donut: Glazed<p> <p>Amount: 6<p> <p>Price:$10.50<p>"
   } else if (buttonGlazedChecked && button12Checked == true) {
-    document.getElementById("final-order").innerHTML =
-      "<p>Donut: Glazed<p> <p>Amount: 12<p> <p>Price:$16.70<p>"
+    finalOrder = "<p>Donut: Glazed<p> <p>Amount: 12<p> <p>Price:$16.70<p>"
   }
+  document.getElementById("final-order").innerHTML = finalOrder
+} 
+
+function myYesButtonClicked () {
+  document.getElementById("confirmation").innerHTML = "Order confirmed, thank you!"
 }
 
-function myYesButtonClicked() {
-  document.getElementById("final-order").innerHTML = finalOrder
+function myNoButtonClicked () {
+  document.getElementById("confirmation").innerHTML = "Order canceled."
 }
