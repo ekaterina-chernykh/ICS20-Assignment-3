@@ -32,7 +32,7 @@ function myButtonClicked() {
   let button12Checked = document.getElementById("12").checked
 
   if (buttonOldFashionDonutChecked && button1Checked == true) {
-    finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 1<p> <p>Price: $2.25<p>" 
+    finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 1<p> <p>Price: $2.25<p>"
   } else if (buttonOldFashionDonutChecked && button2Checked == true) {
     finalOrder = "<p>Donut: Old Fashion<p> <p>Amount: 2<p> <p>Price: $4.75<p>"
   } else if (buttonOldFashionDonutChecked && button3Checked == true) {
